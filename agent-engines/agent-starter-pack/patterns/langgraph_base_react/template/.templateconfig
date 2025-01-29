@@ -1,0 +1,6 @@
+name: "LangGraph - ReAct Base"
+description: "A pattern implementing a base ReAct agent using LangGraph"
+settings:
+  supports_data_pipeline: false
+  deployment_targets: ["agent_engine", "cloud_run"]
+

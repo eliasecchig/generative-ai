@@ -1,0 +1,14 @@
+name: "Agent Framework - long term memory"
+description: "Long term memory example with Google's Agent Framework"
+settings:
+  deployment_targets: ["cloud_run"]
+  supports_data_pipeline: true
+  requires_vector_store: true
+files_to_render:
+  - "app/config.py"
+  - "app/main.py"
+  - "app/templates.py"
+variables:
+  project_name:
+    description: "Name of your project"
+    default: "custom-rag-qa"

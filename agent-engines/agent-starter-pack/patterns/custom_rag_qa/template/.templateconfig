@@ -1,0 +1,14 @@
+name: "Custom RAG QA"
+description: "A pattern implementing custom RAG with python orchestration for question answering"
+settings:
+  deployment_targets: ["cloud_run"]
+  supports_data_pipeline: true
+  requires_vector_store: true
+files_to_render:
+  - "app/config.py"
+  - "app/main.py"
+  - "app/templates.py"
+variables:
+  project_name:
+    description: "Name of your project"
+    default: "custom-rag-qa"

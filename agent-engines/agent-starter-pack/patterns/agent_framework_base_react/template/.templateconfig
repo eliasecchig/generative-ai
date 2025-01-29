@@ -1,0 +1,6 @@
+name: "Agent Framework - Base React"
+description: "Base ReAct pattern using Google Agent Framework"
+settings:
+  supports_data_pipeline: false
+  deployment_targets: ["agent_engine", "cloud_run"]
+
